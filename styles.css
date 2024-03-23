@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Space Research Organization</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Override CSS for .navbar */
+        .navbar {
+            background-color: #333; /* Change background color */
+            color: white; /* Change text color */
+            padding: 10px; /* Add padding */
+        }
+
+        /* Add CSS for a new class .navbar-link */
+        .navbar-link {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px; /* Adjust spacing between links */
+        }
+    </style>
+</head>
+<body>
+    <!-- Your existing HTML content here -->
+    <div class="navbar">
+        <div class="brand">ISRO</div>
+        <div class="nav">
+            <a class="navbar-link" href="#home">Home</a>
+            <a class="navbar-link" href="#about">About</a>
+            <a class="navbar-link" href="#missions">Missions</a>
+            <a class="navbar-link" href="#contact">Contact</a>
+        </div>
+        <!-- Rest of your HTML -->
+    </div>
+    <!-- Rest of your HTML content here -->
+</body>
+</html>
